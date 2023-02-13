@@ -1,0 +1,2 @@
+D:\C++\2022_WinterClass\Day1\x64\Debug\Day1.exe
+D:\C++\WinterClass_Cpp\Day1\x64\Debug\Day1.exe
