@@ -196,9 +196,14 @@ void createPyramid(int height) {
 			cout << " ";
 		}
 		
-		for (int k = 0; k < (height - i) * 2 - 1; k++)
+		for (int k = 1; k < (height - i) * 2; k += 2)
 		{
-			cout << "*";
+			cout << k;
+		}
+
+		for (int k = (height - i) * 2 - 3; k >= 1; k -= 2)
+		{
+			cout << k;
 		}
 		cout << endl;
 	}
@@ -209,8 +214,6 @@ void createPyramid(int height) {
 	// i = 2  *****
 	// i = 1 *******
 	// i = 0*********
-
-	
 }
 
 int main() {
